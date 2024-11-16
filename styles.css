@@ -1,0 +1,12 @@
+/* Reset de márgenes y relleno */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Estilo del cuerpo */
+body {
+  background-color: #B5F4FF;
+ }
