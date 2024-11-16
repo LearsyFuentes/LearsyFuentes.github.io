@@ -16,3 +16,27 @@ body {
 header h1 {
   font-family: Helvetica, Arial, sans-serif; 
 }
+
+
+/* Encabezado */
+header {
+  background-color: #007bff; /* Fondo de color azul */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+nav ul li a {
+  color: white; /* Cambia el color de los enlaces a blanco */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+
+
+/* Efecto hover para los enlaces */
+nav ul li a:hover {
+  color: #ffdd57; /* Color amarillo claro al pasar el cursor */
+}
