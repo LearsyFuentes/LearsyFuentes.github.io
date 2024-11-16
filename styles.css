@@ -24,6 +24,8 @@ header {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  border-radius: 15px; /* Borde redondeado de 15px */
+  margin: 20px; /* Espacio alrededor de la cabecera */
 }
 
 
@@ -42,9 +44,79 @@ nav ul li a:hover {
 }
 
 
+/* Imagen en la sección "Sobre mí" */
 #contenido img {
-  width: 80%; /* Ajusta el ancho de la imagen al 80% del contenedor */
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
   max-width: 400px; /* Limita el ancho máximo a 400px */
   height: auto; /* Mantiene la relación de aspecto */
   margin-top: 20px; /* Añade un poco de espacio arriba de la imagen */
+  object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+  border-radius: 10px; /* Bordes redondeados en la imagen */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave alrededor de la imagen */
 }
+
+
+
+/* Nueva sección con id "contenido" */
+#contenido {
+  display: flex; /* Activamos Flexbox */
+  flex-direction: column; /* Colocamos los elementos de arriba a abajo */
+  justify-content: center; /* Centra los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  padding: 40px; /* Espacio interno (padding) de 40px en todos los lados */
+  text-align: center;
+  background-color: #ffffff; /* Fondo blanco para la sección */
+  margin-top: 20px; /* Espacio superior para separar de la parte superior */
+  border-radius: 8px; /* Bordes redondeados para suavizar el contorno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+}
+
+
+
+/* Título h2 en la sección #contenido */
+#contenido h2 {
+  font-size: 28px; /* Establece el tamaño de la fuente a 28px */
+  color: #007bff; /* Cambia el color del título a azul */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  font-weight: bold; /* Hace el título en negrita */
+}
+
+
+
+/* Pie de página */
+footer {
+  background-color: #333; /* Fondo oscuro para el pie de página */
+  color: #fff; /* Texto blanco para mejor contraste */
+  text-align: center; /* Centra el texto en el pie de página */
+  padding: 10px 0; /* Espaciado vertical dentro del pie de página */
+  position: fixed; /* Fija el pie de página al fondo */
+  width: 100%; /* Asegura que el pie de página ocupe todo el ancho de la página */
+  bottom: 0; /* Fija el pie de página al fondo de la pantalla */
+}
+
+
+/* Párrafo en la sección #contenido */
+#contenido p {
+  font-size: 18px; /* Ajusta el tamaño del texto del párrafo */
+  color: #333; /* Color de texto estándar */
+  margin-bottom: 20px; /* Añade espacio debajo del párrafo */
+  max-width: 600px; /* Limita el ancho máximo del párrafo */
+  line-height: 1.6; /* Mejora la legibilidad */
+  margin-top: 10px;
+}
+
+
+/* Sección */
+section {
+  display: flex; /* Activamos Flexbox */
+  flex-direction: column; /* Colocamos los elementos de arriba a abajo */
+  justify-content: center; /* Centra los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  padding: 15px;
+  max-width: 600px; /* Limita el ancho de la sección */
+  background-color: #fff;
+  margin: 30px auto; /* Añadimos margen superior e inferior y centramos la sección */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto; /* Permite que la altura sea ajustada automáticamente */
+}
+
