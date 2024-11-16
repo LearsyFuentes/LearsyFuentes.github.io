@@ -10,3 +10,9 @@
 body {
   background-color: #B5F4FF;
  }
+
+
+ /* Título del encabezado */
+header h1 {
+  font-family: Helvetica, Arial, sans-serif; 
+}
