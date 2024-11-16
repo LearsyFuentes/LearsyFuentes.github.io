@@ -40,3 +40,11 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffdd57; /* Color amarillo claro al pasar el cursor */
 }
+
+
+#contenido img {
+  width: 80%; /* Ajusta el ancho de la imagen al 80% del contenedor */
+  max-width: 400px; /* Limita el ancho máximo a 400px */
+  height: auto; /* Mantiene la relación de aspecto */
+  margin-top: 20px; /* Añade un poco de espacio arriba de la imagen */
+}
