@@ -233,3 +233,38 @@ body.contact-page {
 .contact-form button:hover {
   background-color: #0056b3;
 }
+
+
+
+/* Estilo para todos los títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif; /* Fuente uniforme */
+  color: #333; /* Color de texto uniforme */
+  font-weight: bold; /* Texto en negrita para todos los títulos */
+  text-align: center; /* Centrar todos los títulos */
+}
+
+/* Tamaños de los títulos */
+h1 {
+  font-size: 2.5em; /* Tamaño del título principal */
+}
+
+h2 {
+  font-size: 2em; /* Tamaño de los subtítulos */
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
