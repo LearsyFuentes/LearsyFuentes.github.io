@@ -266,7 +266,7 @@ h6 {
 
 /* Ajuste de las imágenes de los logos */
 .logos {
-  max-width: 10%; /* Evita que la imagen sea más grande que su contenedor */
+  max-width: 100%; /* Evita que la imagen sea más grande que su contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   display: block; /* Elimina espacios en blanco alrededor de la imagen */
   margin: 0 auto; /* Centra la imagen horizontalmente */
