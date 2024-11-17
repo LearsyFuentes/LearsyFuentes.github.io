@@ -30,7 +30,7 @@ header {
 
 
 nav ul li a {
-  color: white; /* Cambia el color de los enlaces a blanco */
+  color: #000; /* Color de los enlaces a negro */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s; /* Transición suave para el cambio de color */
@@ -38,10 +38,13 @@ nav ul li a {
 
 
 
+
 /* Efecto hover para los enlaces */
 nav ul li a:hover {
-  color: #ffdd57; /* Color amarillo claro al pasar el cursor */
+  color: #007bff; /* Color azul al pasar el cursor */
 }
+
+
 
 
 /* Imagen en la sección "Sobre mí" */
@@ -120,3 +123,113 @@ section {
   height: auto; /* Permite que la altura sea ajustada automáticamente */
 }
 
+
+
+/* Sección de enlaces de navegación */
+#enlaces {
+  background-color: #f0f0f0; /* Fondo gris claro para diferenciar la sección */
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+/* Reset de márgenes y relleno */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #B5F4FF;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #007bff; /* Fondo de color azul */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+/* Sección de logos */
+#logos {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre imágenes */
+}
+
+.logo-container a img {
+  width: 100px; /* Tamaño uniforme para las imágenes */
+  height: 100px; /* Tamaño uniforme para las imágenes */
+  border-radius: 10px; /* Bordes redondeados */
+  transition: transform 0.3s; /* Efecto de transición */
+}
+
+/* Efecto hover para las imágenes */
+.logo-container a img:hover {
+  transform: scale(1.1); /* Efecto de aumento al pasar el cursor */
+}
+
+
+/* Estilo para la página de contacto */
+body.contact-page {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+}
+
+/* Formulario de contacto */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
